@@ -6,6 +6,13 @@
 // #2: Print the odd numbers less than 100
 // #3: Print the multiplication table with 7
 // #4: Print all the multiplication tables with numbers from 1 to 10
+for (let i = 1; i <= 10; i++){
+    console.log(`Multiplication Table for ${i}`)
+    for (let num = 1; num <= 10; num++) {
+        console.log(`${num} * ${i} = ${i * num}`)
+    }
+    console.log("\n");
+}
 // #5: Calculate the sum of numbers from 1 to 10
 // #6: Calculate 10!
 // #7: Calculate the sum of odd numbers greater than 10 and less than 30
