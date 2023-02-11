@@ -4,6 +4,9 @@
 
 // #1: Print numbers from 1 to 10
 // #2: Print the odd numbers less than 100
+for (let i = 1; i < 100; i = i + 2){
+    console.log(i)
+}
 // #3: Print the multiplication table with 7
 // #4: Print all the multiplication tables with numbers from 1 to 10
 // #5: Calculate the sum of numbers from 1 to 10
