@@ -33,7 +33,7 @@ for (let i = 0; i < sumOfSetOfNumbers.length; i++){
 //In the loop, the sumOf value changes to the sumOf + the current iteration until the loop is done
 //Example: sumOf = 0 (current calue for the sumOf) + sumOfSetOfNumbers[2] (current value in the array) = 0 + 2 = 2
 //         2 (the current value for sumOf) + sumOfSetOfNumbers[3] (current value in the array) = 2 + 3 = 5
-
+console.log("\n");
 //USING THE REDUCE() THE METHOD
 const sum = sumOfSetOfNumbers.reduce((x, y) => x + y);
 console.log(sum);
