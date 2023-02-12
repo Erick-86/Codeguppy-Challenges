@@ -7,6 +7,12 @@
 // #3: Print the multiplication table with 7
 // #4: Print all the multiplication tables with numbers from 1 to 10
 // #5: Calculate the sum of numbers from 1 to 10
+let sum = 0
+for (let i = 1; i <= 10; i++) {
+    sum = sum + i
+    console.log(sum);
+}
+
 // #6: Calculate 10!
 // #7: Calculate the sum of odd numbers greater than 10 and less than 30
 // #8: Create a function that will convert from Celsius to Fahrenheit
