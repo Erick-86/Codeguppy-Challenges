@@ -11,7 +11,33 @@
 // #7: Calculate the sum of odd numbers greater than 10 and less than 30
 // #8: Create a function that will convert from Celsius to Fahrenheit
 // #9: Create a function that will convert from Fahrenheit to Celsius
+
+
 // #10: Calculate the sum of numbers in an array of numbers
+//
+//UNDERSTANDING THE PROBLEM
+// i)   A set of numbers will be given
+// i)   Calculate the sum of the numbers
+
+//BREAKING THE PROBLEM INTO SUB-PROBLEMS
+// i)   How to calculate the sum for a set of numbers
+
+//SOLUTION
+const sumOfSetOfNumbers = [2, 3, 4, 5]
+let sumOf = 0
+for (let i = 0; i < sumOfSetOfNumbers.length; i++){
+    sumOf = sumOf + sumOfSetOfNumbers[i] 
+    console.log(sumOf)
+}
+//The current number is the sumOf = 0
+//In the loop, the sumOf value changes to the sumOf + the current iteration until the loop is done
+//Example: sumOf = 0 (current calue for the sumOf) + sumOfSetOfNumbers[2] (current value in the array) = 0 + 2 = 2
+//         2 (the current value for sumOf) + sumOfSetOfNumbers[3] (current value in the array) = 2 + 3 = 5
+
+//USING THE REDUCE() THE METHOD
+const sum = sumOfSetOfNumbers.reduce((x, y) => x + y);
+console.log(sum);
+
 // #11: Calculate the average of the numbers in an array of numbers
 // #12: Create a function that receives an array of numbers and returns an array containing only the positive numbers
 // #13: Find the maximum number in an array of numbers
