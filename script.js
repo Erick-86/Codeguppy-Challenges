@@ -10,6 +10,24 @@
 // #6: Calculate 10!
 // #7: Calculate the sum of odd numbers greater than 10 and less than 30
 // #8: Create a function that will convert from Celsius to Fahrenheit
+//
+//UNDERSTANDING THE QUESTION
+// i)   What is celcius
+// i)   What is Fahrenheit
+
+//BREAKING THE PROBLEM INTO SUB PROBLEMS
+// i)   How to convert celcious to fahrenheit (F = (C x 1.8) + 32)
+
+//SOLUTION
+let celcius = 30
+const celciusToFarenheit = (c) => {
+    const formular = c * (1.8) + 32
+    return formular
+};
+const fahrenheit = celciusToFarenheit(celcius);
+console.log(fahrenheit)
+
+
 // #9: Create a function that will convert from Fahrenheit to Celsius
 // #10: Calculate the sum of numbers in an array of numbers
 // #11: Calculate the average of the numbers in an array of numbers
