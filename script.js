@@ -9,6 +9,14 @@
 // #5: Calculate the sum of numbers from 1 to 10
 // #6: Calculate 10!
 // #7: Calculate the sum of odd numbers greater than 10 and less than 30
+let sumOfOdds = 0;
+
+    for (let i = 11; i < 30; i = i + 2) {
+        sumOfOdds = sumOfOdds + i
+
+        console.log(sumOfOdds);
+    }
+
 // #8: Create a function that will convert from Celsius to Fahrenheit
 // #9: Create a function that will convert from Fahrenheit to Celsius
 // #10: Calculate the sum of numbers in an array of numbers
