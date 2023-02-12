@@ -11,6 +11,19 @@
 // #7: Calculate the sum of odd numbers greater than 10 and less than 30
 // #8: Create a function that will convert from Celsius to Fahrenheit
 // #9: Create a function that will convert from Fahrenheit to Celsius
+//
+//UNDERSTANDING THE PROBLEM
+// i)   Converting Fahrenheit to Celcius
+
+//BREAKING THE PROBLEM INTO SUB PROBLEMS
+// i)   How to convert Fahrenheit to celcius
+//      Ans. C = (F - 32) * 5 / 9
+//
+//SOLUTION
+const fah = 300
+const fahToCel = (f) => c = (f - 32) * 5 / 9 
+console.log(fahToCel(fah))
+
 // #10: Calculate the sum of numbers in an array of numbers
 // #11: Calculate the average of the numbers in an array of numbers
 // #12: Create a function that receives an array of numbers and returns an array containing only the positive numbers
